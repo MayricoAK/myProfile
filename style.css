@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: #00A9FF;
+  background: -webkit-linear-gradient(to right, #00A9FF, #d6e5fa);
+  background: linear-gradient(to right, #00A9FF, #d6e5fa);
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-card {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.profile-image {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  padding: 20px;
+}
+
+.profile-details h2 {
+  font-size: 24px;
+}
+
+.profile-details p {
+  font-size: 18px;
+}
+
+.profile-social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #0077B5; /* Warna LinkedIn */
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #3b5998; /* Warna Facebook */
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
